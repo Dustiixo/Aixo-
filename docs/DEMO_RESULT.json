@@ -1,0 +1,18 @@
+{
+  "result": "PASS_ISOLATED",
+  "stores": "SYNTHETIC_ONLY",
+  "results_directory": "/tmp/AIXO_M02_SAFE_DEMO_6duvp69u",
+  "original_source_unchanged": true,
+  "imports": 2,
+  "duplicate_imports_blocked": 2,
+  "collision_candidates": 1,
+  "jobs": [
+    "done",
+    "done"
+  ],
+  "review_markdown": "/tmp/AIXO_M02_SAFE_DEMO_6duvp69u/AIXO_Spine_Review_demo-local_20261026T225753Z_2daf93/REVIEW.md",
+  "review_receipt": "/tmp/AIXO_M02_SAFE_DEMO_6duvp69u/AIXO_Spine_Review_demo-local_20261026T225753Z_2daf93/RECEIPT.json",
+  "backup_directory": "/tmp/AIXO_M02_SAFE_DEMO_6duvp69u/AIXO_Bridge_Backup_20261026T225753_93ce73",
+  "reopen_verified": true,
+  "warning": "Does not prove host acceptance of GREMLIN Android or Thought Spine live import"
+}

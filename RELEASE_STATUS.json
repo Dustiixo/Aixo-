@@ -1,0 +1,16 @@
+{
+  "release": "AIXO_Local_Bridge_M0_2_RC0",
+  "date": "2026-10-26",
+  "status": "SOURCE_TESTED_WINDOWS_HOST_ACCEPTANCE_OPEN",
+  "g0": {
+    "unit_and_integration_tests": "PASS_ON_LINUX_PYTHON_3_13",
+    "synthetic_end_to_end": "PASS_ON_LINUX_PYTHON_3_13",
+    "native_windows_forms": "NOT_TESTED_ON_WINDOWS",
+    "real_gremlin_android": "NOT_TESTED",
+    "real_thought_spine_import": "NOT_TESTED",
+    "existing_rc1_store_overwrite": "PROHIBITED_DEFAULT"
+  },
+  "owners": ["AIXO M0.2 isolated bridge", "AIXO M0.2 isolated Wall"],
+  "direct_owner_writes": ["none to GREMLIN", "none to Thought Spine", "none to VELA", "none to older RC1 default"],
+  "known_limitations": ["lexical collision only", "explicit file handoff rather than live sync", "separate SQLite transactions across bridge and wall", "no privileged system service", "no automatic deployment"]
+}

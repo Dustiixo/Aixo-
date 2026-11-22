@@ -1,0 +1,29 @@
+{
+  "schema": "aixo.local-bridge.test-receipt.v1",
+  "timestamp_utc": "2026-10-26T22:57:53.897852+00:00",
+  "environment": {
+    "platform": "linux",
+    "python": "3.13.5"
+  },
+  "result": "PASS_SOURCE_TESTED",
+  "python_unittest_count": 48,
+  "source_baseline": {
+    "RC1_wall_sha256": "66b9f004c378816244bedb432bce83524f1b59f5316ed1f2e2b50c0acea8df8a",
+    "RC1_bridge_sha256": "d3977ffa93460bff678502111cc39b64ae76cbff532f1fc761b9358f29646d2b",
+    "RC1_native_gui_sha256": "9e09106381f7493d05be6836ff84b5a0d9846406e22b7e25674c78c19d460874"
+  },
+  "demo": {
+    "result": "PASS_ISOLATED",
+    "imports": 2,
+    "duplicates_blocked": 2,
+    "reopen_verified": true,
+    "backup_verified": true,
+    "review_export_verified": true
+  },
+  "limits": [
+    "not Windows host acceptance",
+    "not actual GREMLIN Android export",
+    "not real Thought Spine import",
+    "not automatic cross-owner integration"
+  ]
+}

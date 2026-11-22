@@ -1,0 +1,53 @@
+test_bridge_bad_args_rejected (test_bridge.BridgeTests.test_bridge_bad_args_rejected) ... ok
+test_bridge_full_lifecycle_and_process_reopen (test_bridge.BridgeTests.test_bridge_full_lifecycle_and_process_reopen) ... ok
+test_bridge_unicode_multiline (test_bridge.BridgeTests.test_bridge_unicode_multiline) ... ok
+test_bridge_unknown_action_rejected (test_bridge.BridgeTests.test_bridge_unknown_action_rejected) ... ok
+test_verify_and_backup_close_sqlite_handles (test_bridge.BridgeTests.test_verify_and_backup_close_sqlite_handles) ... ok
+test_backup_pair_restorable (test_local_bridge.LocalBridgeTests.test_backup_pair_restorable) ... ok
+test_concurrent_idempotent_imports (test_local_bridge.LocalBridgeTests.test_concurrent_idempotent_imports) ... ok
+test_duplicate_not_duplicated (test_local_bridge.LocalBridgeTests.test_duplicate_not_duplicated) ... ok
+test_export_blocked_if_pending (test_local_bridge.LocalBridgeTests.test_export_blocked_if_pending) ... ok
+test_import_preserves_raw_and_round_trip (test_local_bridge.LocalBridgeTests.test_import_preserves_raw_and_round_trip) ... ok
+test_invalid_format_and_duplicate_source_id (test_local_bridge.LocalBridgeTests.test_invalid_format_and_duplicate_source_id) ... ok
+test_multi_selected_ids_and_missing (test_local_bridge.LocalBridgeTests.test_multi_selected_ids_and_missing) ... ok
+test_no_deleted_or_empty_import (test_local_bridge.LocalBridgeTests.test_no_deleted_or_empty_import) ... ok
+test_original_json_tamper_detected (test_local_bridge.LocalBridgeTests.test_original_json_tamper_detected) ... ok
+test_overlarge_file_denied (test_local_bridge.LocalBridgeTests.test_overlarge_file_denied) ... ok
+test_prepared_recovery_without_duplicate (test_local_bridge.LocalBridgeTests.test_prepared_recovery_without_duplicate) ... ok
+test_preview_never_imports (test_local_bridge.LocalBridgeTests.test_preview_never_imports) ... ok
+test_protocol_subprocess_json (test_local_bridge.LocalBridgeTests.test_protocol_subprocess_json) ... ok
+test_protocol_whitelist_and_schema (test_local_bridge.LocalBridgeTests.test_protocol_whitelist_and_schema) ... ok
+test_review_export_markdown_and_receipt (test_local_bridge.LocalBridgeTests.test_review_export_markdown_and_receipt) ... ok
+test_revision_block_and_approved_branch (test_local_bridge.LocalBridgeTests.test_revision_block_and_approved_branch) ... ok
+test_schema_upgrade_rejected (test_local_bridge.LocalBridgeTests.test_schema_upgrade_rejected) ... ok
+test_sha_bound_to_preview (test_local_bridge.LocalBridgeTests.test_sha_bound_to_preview) ... ok
+test_two_projects_isolated_by_namespace (test_local_bridge.LocalBridgeTests.test_two_projects_isolated_by_namespace) ... ok
+test_wall_change_detected (test_local_bridge.LocalBridgeTests.test_wall_change_detected) ... ok
+test_add_restart_and_content_integrity (test_wall.WallTests.test_add_restart_and_content_integrity) ... ok
+test_backup_restore_preserves_everything (test_wall.WallTests.test_backup_restore_preserves_everything) ... ok
+test_branch_limits_depth (test_wall.WallTests.test_branch_limits_depth) ... ok
+test_candidate_dismissal (test_wall.WallTests.test_candidate_dismissal) ... ok
+test_child_quota (test_wall.WallTests.test_child_quota) ... ok
+test_collision_candidates_need_approval (test_wall.WallTests.test_collision_candidates_need_approval) ... ok
+test_concurrent_create_preserves_hash_chain (test_wall.WallTests.test_concurrent_create_preserves_hash_chain) ... ok
+test_content_tamper_detected (test_wall.WallTests.test_content_tamper_detected) ... ok
+test_corrupt_store_blocks_open (test_wall.WallTests.test_corrupt_store_blocks_open) ... ok
+test_create_rejects_invalid (test_wall.WallTests.test_create_rejects_invalid) ... ok
+test_demo_local_scoring (test_wall.WallTests.test_demo_local_scoring) ... ok
+test_duplicate_idempotency (test_wall.WallTests.test_duplicate_idempotency) ... ok
+test_empty_db_integrity (test_wall.WallTests.test_empty_db_integrity) ... ok
+test_event_hash_tamper_detected (test_wall.WallTests.test_event_hash_tamper_detected) ... ok
+test_export_requires_integrity_and_explicit_review (test_wall.WallTests.test_export_requires_integrity_and_explicit_review) ... ok
+test_multiply_all_or_nothing (test_wall.WallTests.test_multiply_all_or_nothing) ... ok
+test_mutation_preserves_original (test_wall.WallTests.test_mutation_preserves_original) ... ok
+test_reconcile_preserves_parents (test_wall.WallTests.test_reconcile_preserves_parents) ... ok
+test_recover_expired_lease (test_wall.WallTests.test_recover_expired_lease) ... ok
+test_retry_and_dead_letter_queue (test_wall.WallTests.test_retry_and_dead_letter_queue) ... ok
+test_review_is_not_truth_claim (test_wall.WallTests.test_review_is_not_truth_claim) ... ok
+test_slice_exact_and_parent_chain (test_wall.WallTests.test_slice_exact_and_parent_chain) ... ok
+test_status_tamper_detected_by_event_replay (test_wall.WallTests.test_status_tamper_detected_by_event_replay) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 11.875s
+
+OK
